@@ -687,6 +687,7 @@ textarea:focus {
 }
 
 .thumb-1 .inner {
+    display: block;
     height: 102px;
     overflow: hidden;  
     position: relative;
