@@ -4,15 +4,27 @@ $(window).on("load",function(){
 
 });
 
-$(document).ready(function() {		
+$(document).ready(function() {
 
-	// $("select").each(function() {
+	if( $("#nav").length > 0 ) {
 
-	// 	$(this).select2({
-	// 		minimumResultsForSearch: Infinity
-	// 	});
+        $("#nav").swipe({
 
-	// });
+            swipe:function(event, direction) {
+
+                if(direction == "left") {
+
+                    $("#nav").animate({
+                        "left" : -100 + "%"
+                    }, 300);
+
+                }
+
+            }
+
+        });
+
+    }
 
 	$(".slider_1").on("init", function() {
 
@@ -38,7 +50,6 @@ $(document).ready(function() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1
-        // fade: true
     });
 
     // ------------------------------------
@@ -67,7 +78,6 @@ $(document).ready(function() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1
-        // fade: true
     });
 
 });
