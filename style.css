@@ -523,6 +523,7 @@ textarea:focus {
 }
 
 .slider .slide {
+    display: block;
     height: 181px;
     overflow: hidden;
     position: relative;
