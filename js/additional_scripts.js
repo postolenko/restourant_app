@@ -37,8 +37,8 @@ $(document).ready(function() {
         autoplaySpeed: 10000,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true
+        slidesToScroll: 1
+        // fade: true
     });
 
     // ------------------------------------
@@ -66,8 +66,8 @@ $(document).ready(function() {
         autoplaySpeed: 10000,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true
+        slidesToScroll: 1
+        // fade: true
     });
 
 });
