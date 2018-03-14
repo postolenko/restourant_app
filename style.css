@@ -660,7 +660,7 @@ textarea:focus {
 }
 
 .slider_2 .slide {
-    height: 102px;
+    /*height: 102px;*/
     background: #ffffff;
 }
 
@@ -761,7 +761,3 @@ textarea:focus {
     display: inline-block;
     vertical-align: middle;
 }
-
-/*.footer-nav i {
-    outline: 1px solid red;
-}*/
