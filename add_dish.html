@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/select2.css">
+	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+	<script type="text/javascript" src="slick/slick.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.touchSwipe.min.js"></script>
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+
+<style>
+	
+	.wrapper {
+		max-width: 480px;
+		margin : 0 auto;
+	}
+
+
+</style>
+
+<body>
+
+<!-- 	<div class="width_app" style="min-width: 100px; text-align: center; background: rgba(0, 0, 0, .7); position: fixed; top: 0; left: 0; display: inline-block; color: #ffffff;">
+		<h1>480</h1>
+	</div>
+ -->
+	<div class="wrapper">
+
+	<!-- Header -->
+		
+	<header>
+
+		<div class="header">
+			<div class="row">
+				<a href="#" class="link-back"></a>
+				<h2>Добавить Блюда / Напитки</h2>
+			</div>
+		</div>
+
+		<div class="main-nav_box" id="nav">
+			
+			<div class="main-nav-header offset-ziro">
+				<div class="col-1">
+					<a href="#" class="logo">
+						<img src="img/logo.png" alt="" />
+					</a>
+				</div>
+				<div class="col-2">
+					<button type="button" class="search"></button>
+				</div>
+			</div>
+
+			<div class="main-nav_wrapp scroll">
+				<ul class="main-nav">
+					<li>
+						<a href="#"><span class="icon-box"><i class="restourants"></i></span>Рестораны</a>
+					</li>
+					<li>
+						<a href="#"><span class="icon-box"><i class="kitchens"></i></span>Кухни</a>
+					</li>
+					<li>
+						<a href="#"><span class="icon-box"><i class="shops"></i></span>Магазины</a>
+					</li>
+					<li>
+						<a href="#"><span class="icon-box"><i class="discount"></i></span>Акции</a>
+					</li>
+					<li>
+						<a href="#"><span class="icon-box green"><i class="card"></i></span>Корзина</a>
+					</li>
+					<li>
+						<a href="#"><span class="icon-box"><i class="user"></i></span>Профиль</a>
+					</li>
+					<li>
+						<a href="#"><span class="icon-box"><i class="settings"></i></span>Настройки</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>	
+								
+	</header>
+
+	<!-- /Header -->
+
+		
+
+		<!-- Content -->
+			<div class="content">
+
+				<!-- Section 1 - Add Dish Page -->
+
+				<section>
+
+					<div class="row">
+					
+						<div class="thumbnails_wrapp">
+							<h3 class="title">Добавить фото</h3>
+							<div class="thumbnails-2">
+								<a href="#" class="thumb-2">
+									<div class="img-box">
+										<img src="img/add_photo_01.jpg" alt="" />
+									</div>
+								</a>
+								<a href="#" class="thumb-2">
+									<div class="img-box">
+										<img src="img/add_photo_02.jpg" alt="" />
+									</div>
+								</a>
+								<a href="#" class="thumb-2">
+								</a>
+								<a href="#" class="thumb-2">
+								</a>
+							</div>
+						</div>
+
+						<div class="form_wrapp">
+							
+							<form>
+								
+								<div class="input_wrapp">
+									<input type="text" placeholder="Категория" />
+								</div>
+								<div class="input_wrapp important">
+									<input type="text" placeholder="Блюдо / Напиток" />
+								</div>
+								<div class="input_wrapp important">
+									<input type="text" placeholder="Время приготовления" />
+								</div>
+								<div class="input_wrapp">
+									<input type="text" placeholder="Цена" />
+								</div>
+								<div class="input_wrapp">
+									<input type="text" placeholder="Вес" />
+								</div>
+								<div class="input_wrapp">
+									<input type="text" placeholder="Город, Москва" />
+								</div>
+								<div class="input_wrapp">
+									<input type="text" placeholder="Адрес ресторана" />
+								</div>
+								<div class="input_wrapp">
+									<label>Описание еды</label>
+									<textarea></textarea>
+								</div>
+								<p class="p-descript">Нажимая кнопку <span class="orange">«Добавить»</span> вы регистрируете блюдо или напиток.</p>
+								<button type="submit" class="green-pill">Добавить</button>
+
+							</form>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 1 - Add Dish Page -->
+
+			</div>
+		<!-- /Content -->
+
+		<!-- Footer -->
+
+		<footer>
+
+			<div class="footer">
+				<ul class="footer-nav">
+					<li><a href="#"><i class="home"></i></a></li>
+					<li><a href="#"><i class="search"></i></a></li>
+					<li><a href="#"><i class="hearth"></i></a></li>
+					<li><a href="#"><i class="acc"></i></a></li>
+					<li><a href="#" class="menu_btn"><i class="burger"></i></a></li>
+				</ul>
+			</div>
+
+		</footer>
+
+		<!-- /Footer -->
+
+		<script src="js/scripts.js"></script>
+		<script src="js/additional_scripts.js"></script>
+	
+	</div>
+
+</body>
+</html>
